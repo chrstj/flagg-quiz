@@ -23,7 +23,7 @@ const Quiz = () => {
       setFeedback("Riktig");
       setFeedbackColor("green"); // Set feedback color to green for correct answers
     } else {
-      setFeedback(`${correctAnswer}.`);
+      setFeedback(`${correctAnswer}`);
       setFeedbackColor("red"); // Set feedback color to red for incorrect answers
     }
 
